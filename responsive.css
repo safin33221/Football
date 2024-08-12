@@ -1,0 +1,23 @@
+@media screen and (max-width:576px) {
+    .container{
+        width: calc(100% - 30px);
+    }
+    nav .nav-items{
+        display: none;
+
+    }
+    .banner-content{
+        flex-direction: column;
+    }
+    .banner-content .content-image{
+        margin-top: 30px;
+        max-width: 550px;
+        height: 442px;
+    }
+
+}
+@media screen and (min-width:576px) {
+    .nav-menubar{
+        display: none;
+    }
+}
